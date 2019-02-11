@@ -119,7 +119,7 @@ links:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/yui4.jpg
+avatar: /images/yui2.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -328,8 +328,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
-  shortname: yui-me
+  enable: false
+  shortname: diygod-me
   count: false
 
 # Hypercomments
@@ -480,7 +480,7 @@ vkontakte_api:
   enable:       false
   app_id:       #<app_id>
   like:         true
-  comments:     true
+  comments:     false
   num_of_posts: 10
 
 # Star rating support to each article.
@@ -764,10 +764,10 @@ css: css
 js: js
 images: images
 
-header_bg: /images/header-kon.png
+header_bg: /images/header-kon.webp
 
 card:
-  avatar: /images/card.png
+  avatar: /images/card.webp
   name: k-on
   description: 目标!武道馆!!
 
@@ -783,7 +783,7 @@ footer:
   copyright:
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
-  powered: true
+  powered: false
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
@@ -792,7 +792,7 @@ footer:
     version: false
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  custom_text: custom text
+  custom_text: 很遗憾，此生无缘HTT现场了，君生我未生。
   sitemap: /sitemap.xml
   beian: xxxx
 

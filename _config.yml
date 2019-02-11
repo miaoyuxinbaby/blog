@@ -4,8 +4,8 @@
 
 # Site
 title: k-on
-subtitle:
-description:
+subtitle: 大好き
+description: <span>梦里不知身是客，荒唐二十有一载</span>
 keywords:
 author: yui
 language:
@@ -79,4 +79,4 @@ theme: sagiri
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/miaoyuxinbaby/yui.github.io.git
+  repo: https://github.com/miaoyuxinbaby/miaoyuxinbaby.github.io.git

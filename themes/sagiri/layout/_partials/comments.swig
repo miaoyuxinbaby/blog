@@ -1,7 +1,7 @@
-{% if page.comments %}
+{% if false %}
 
   {% if (theme.duoshuo and theme.duoshuo.shortname) or theme.duoshuo_shortname %}
-    <div class="comments" id="comments">
+    <div class="comments" style="display: none;" id="comments">
       <div class="ds-thread" data-thread-key="{{ page.path }}"
            data-title="{{ page.title }}" data-url="{{ page.permalink }}">
       </div>
