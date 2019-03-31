@@ -30,7 +30,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "yui,blog"
+keywords: 'yui,blog'
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -53,7 +53,6 @@ seo: false
 # subtitle: Subtitle
 index_with_subtitle: false
 
-
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -75,7 +74,6 @@ menu:
 menu_icons:
   enable: true
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -85,7 +83,6 @@ menu_icons:
 # scheme: Mist
 scheme: Pisces # 这个主题有裙子
 # scheme: Gemini
-
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -119,7 +116,7 @@ links:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/yui2.jpg
+avatar: /images/yui5.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -164,7 +161,6 @@ sidebar:
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
 
-
 # ---------------------------------------------------------------
 # Post Settings
 # ---------------------------------------------------------------
@@ -202,9 +198,9 @@ post_wordcount:
 
 # Wechat Subscriber
 #wechat_subscriber:
-  #enabled: true
-  #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
-  #description: ex. subscribe to my blog by scanning my public wechat account
+#enabled: true
+#qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
+#description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
 reward_comment:
@@ -218,7 +214,6 @@ post_copyright:
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
-
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -227,7 +222,7 @@ post_copyright:
 mobile_layout_economy: false
 
 # Android Chrome header panel color ($black-deep).
-android_chrome_color: "#222"
+android_chrome_color: '#222'
 
 # Custom Logo.
 # !!Only available for Default Scheme currently.
@@ -243,7 +238,6 @@ custom_logo:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: normal
-
 
 # ---------------------------------------------------------------
 # Font Settings
@@ -341,14 +335,13 @@ changyan:
   appid:
   appkey:
 
-
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://github.com/xCss/Valine
 valine:
   enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  appid: # your leancloud application appid
+  appkey: # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Comment input placeholder
@@ -372,7 +365,7 @@ gitment:
   language: # Force language, or auto switch by theme
   github_user: # MUST HAVE, Your Github ID
   github_repo: # MUST HAVE, The repo you use to store Gitment comments
-  client_id:   # MUST HAVE, Github client id for the Gitment
+  client_id: # MUST HAVE, Github client id for the Gitment
   client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
@@ -389,7 +382,7 @@ gitment:
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
 #jiathis:
-  ##uid: Get this uid from http://www.jiathis.com/
+##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
 # Share
@@ -459,36 +452,36 @@ duoshuo_info:
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
-  enable:       false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+  enable: false
+  app_id: #<app_id>
+  fb_admin: #<user_id>
+  like_button: #true
+  webmaster: #true
 
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable:       false
-  num_of_posts: 10    # min posts num is 1
-  width:        100%  # default width is 550px
-  scheme:       light # default scheme is light (light or dark)
+  enable: false
+  num_of_posts: 10 # min posts num is 1
+  width: 100% # default width is 550px
+  scheme: light # default scheme is light (light or dark)
 
 # VKontakte API Support.
 # To get your AppID visit https://vk.com/editapp?act=create
 vkontakte_api:
-  enable:       false
-  app_id:       #<app_id>
-  like:         true
-  comments:     false
+  enable: false
+  app_id: #<app_id>
+  like: true
+  comments: false
   num_of_posts: 10
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     #<app_id>
-  color:  fc6423
+  id: #<app_id>
+  color: fc6423
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
@@ -516,13 +509,11 @@ busuanzi_count:
   page_pv_header: <i class="fa fa-file-o"></i>
   page_pv_footer:
 
-
 # Tencent analytics ID
 # tencent_analytics:
 
 # Tencent MTA ID
 # tencent_mta:
-
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: false
@@ -552,7 +543,7 @@ algolia_search:
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}"
-    hits_stats: "${hits} results found in ${time} ms"
+    hits_stats: '${hits} results found in ${time} ms'
 
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
@@ -563,7 +554,6 @@ local_search:
   trigger: auto
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
-
 
 # ---------------------------------------------------------------
 # Tags Settings
@@ -598,7 +588,6 @@ tabs:
     tabs: false
     labels: true
   border_radius: 0
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -757,7 +746,6 @@ vendors:
   # needMoreShare2
   # https://github.com/revir/need-more-share2
   needMoreShare2:
-
 
 # Assets
 css: css
