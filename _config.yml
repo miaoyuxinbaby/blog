@@ -5,10 +5,10 @@
 # Site
 title: k-on
 subtitle: 大好き
-description: <span>梦里不知身是客，荒唐二十有一载</span>
+description: <span>梦里不知身是客，荒唐二十有二载</span>
 keywords:
 author: yui
-language:
+language: zh-Hans
 timezone:
 
 # URL
@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -52,7 +52,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
