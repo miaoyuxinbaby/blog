@@ -32,3 +32,9 @@ input {
 ```txt
  避免使用sessionStorage来存储一些信息
 ```
+
+- safari Date 对象不支持 2019-1-1 这种格式的日期，new Date()))
+
+- safari fixed 定位天坑
+
+- safari 不支持 webp 格式的图片
