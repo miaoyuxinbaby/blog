@@ -22,7 +22,7 @@ useEffect(() => {
 }, [id1, id2, list1, list2])
 ```
 
-并且，上述问题的可以用 useReducer 来解决.React 会保证 dispatch 在组件的声明周期内保持不变。
+并且，上述问题的可以用 useReducer 来解决.React 会保证 dispatch 在组件的声明周期内保持不变。也可以用 useRef 去解决,这类似于 class 组件的 this
 
 ```js
 function reducer(state, action) {
@@ -45,6 +45,8 @@ useEffect(() => {
 相比于直接在 effect 里面读取状态，它 dispatch 了一个 action 来描述发生了什么。这使得我们的 effect 和 list1,list2 状态解耦。我们的 effect 不再关心怎么更新状态，它只负责告诉我们发生了什么。更新的逻辑全都交由 reducer 去统一处理.
 
 > 关于连续多次改动 state，要取最新的值，可以通过 useRef 解决，它像一个盒子，永远装着最新的数据
+
+> useRef 还可以存储，prevProps。在 effect 中做更新赋值
 
 > useReducer 是 Hooks 的作弊模式!!
 
